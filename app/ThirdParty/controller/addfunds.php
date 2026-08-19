@@ -118,15 +118,16 @@ elseif ($_POST && isset($_POST["payment_type"])) :
 
     $method_id = $_POST["payment_type"];
     $amount = htmlentities($_POST["payment_amount"]);
+    $amount = str_replace(',', '.', $amount); // Virgüllü girişi noktaya çevir
     $extras = json_encode($_POST);
     $method = $conn->prepare("SELECT * FROM payment_methods WHERE id=:id ");
     $method->execute(array("id" => $method_id));
     $method = $method->fetch(PDO::FETCH_ASSOC);
     $extra = json_decode($method["method_extras"], true);
-    $paymentCode = time() . rand(1, 999);
-    $amount = (int)$amount;
-    $extra["fee"] = (int)$extra["fee"];
-    $amount_fee = ($amount + ($amount * $extra["fee"] / 100)); // Komisyonlu tutar
+    $paymentCode = time() . '_' . $user['client_id'] . '_' . random_int(1000, 9999);
+    $amount = floatval($amount);
+    $fee_rate = floatval(str_replace(',', '.', $extra['fee'] ?? 0));
+    $amount_fee = round($amount + ($amount * $fee_rate / 100), 2); // Komisyonlu tutar (yuvarlanmış)
 
     if (empty($method_id)) {
         $error = 1;
@@ -329,34 +330,105 @@ elseif ($_POST && isset($_POST["payment_type"])) :
                 $errorText = $languageArray["error.addfunds.online.fail"];
             endif;
         elseif ($method_id == 4) :
-            if ($extra["processing_fee"]) :
-                $amount_fee = $amount_fee + "0.49";
-            endif;
-            $form_data = [
-                "website_index" => $extra["website_index"],
-                "apikey" => $extra["apiKey"],
-                "apisecret" => $extra["apiSecret"],
-                "item_name" => "Bakiye Ekleme",
-                "order_id" => $paymentCode,
-                "buyer_name" => $user["username"],
-                "buyer_surname" => " ",
-                "buyer_email" => $user["email"],
-                "buyer_phone" => $user["telephone"],
-                "city" => "NA",
-                "billing_address" => "NA",
-                "ucret" => $amount_fee
-            ];
-            print_r(generate_shopier_form(json_decode(json_encode($form_data))));
-            if (isset($_SESSION["data"]["payment_shopier"]) && $_SESSION["data"]["payment_shopier"] == true) :
-                $insert = $conn->prepare("INSERT INTO payments SET client_id=:c_id, payment_amount=:amount, payment_privatecode=:code, payment_method=:method, payment_mode=:mode, payment_create_date=:date, payment_ip=:ip ");
-                $insert->execute(array("c_id" => $user['client_id'], "amount" => $amount, "code" => $paymentCode, "method" => $method_id, "mode" => "Otomatik", "date" => date("Y.m.d H:i:s"), "ip" => GetIP()));
-                $success = 1;
-                $successText = $languageArray["error.addfunds.online.success"];
-                unset($_SESSION["data"]);
-            else :
+            // ─── Shopier REST API v1 — Dinamik Ürün Oluşturma ─────────────────
+            $rawApiKey    = $extra['apiKey'] ?? '';
+            $apiKeyParts  = explode('|||', $rawApiKey);
+            $shopier_token = $apiKeyParts[1] ?? null;
+
+            if (!$shopier_token) {
                 $error = 1;
-                $errorText = $languageArray["error.addfunds.online.fail"];
-            endif;
+                $errorText = 'Shopier API Token sistemde tanımlı değil! Lütfen Admin Paneli > Ödeme Yöntemleri > Shopier bölümünden Bearer Token ekleyiniz.';
+            } else {
+                // Processing fee ekle
+                $final_price = $amount_fee;
+                if (isset($extra['processing_fee']) && $extra['processing_fee'] == '1') {
+                    $final_price += 0.49;
+                }
+                $final_price = round($final_price, 2);
+
+                $site_name     = $settings['site_name'] ?? 'Panel';
+                $product_title = $site_name . ' - ' . $amount . ' TL Bakiye Yükleme (Sipariş: ' . $paymentCode . ')';
+                $product_desc  = '♻️ Bakiye Yenileme (Müşteri: ' . $user['username'] . ')';
+
+                $postData = [
+                    'title'         => $product_title,
+                    'priceData'     => ['price' => $final_price, 'currency' => 'TRY'],
+                    'type'          => 'digital',
+                    'stockQuantity' => 1,
+                    'inventory'     => ['tracking' => true, 'quantity' => 1],
+                    'shippingPayer' => 'sellerPays',
+                    'description'   => $product_desc,
+                ];
+
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, 'https://api.shopier.com/v1/products');
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($ch, CURLOPT_POST, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($postData));
+                curl_setopt($ch, CURLOPT_TIMEOUT, 20);
+                curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                    'Authorization: Bearer ' . $shopier_token,
+                    'Content-Type: application/json',
+                    'Accept: application/json',
+                ]);
+                $response = curl_exec($ch);
+                $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                curl_close($ch);
+
+                $responseData = json_decode($response, true);
+
+                if ($httpCode >= 200 && $httpCode < 300 && isset($responseData['url'])) {
+                    // Başarılı: ürün oluşturuldu
+                    $productUrl         = $responseData['url'];
+                    $created_product_id = $responseData['id'] ?? '';
+
+                    // payment_extra = Shopier Product ID (webhook eşleştirmesi için)
+                    // payment_delivery = 1 (webhook bu kaydı bekler)
+                    $insert = $conn->prepare("INSERT INTO payments SET client_id=:c_id, payment_amount=:amount, payment_privatecode=:code, payment_method=:method, payment_mode=:mode, payment_create_date=:date, payment_ip=:ip, payment_extra=:extra, payment_delivery=1");
+                    $insert->execute([
+                        'c_id'   => $user['client_id'],
+                        'amount' => $amount,
+                        'code'   => $paymentCode,
+                        'method' => $method_id,
+                        'mode'   => 'Otomatik',
+                        'date'   => date('Y.m.d H:i:s'),
+                        'ip'     => GetIP(),
+                        'extra'  => $created_product_id,
+                    ]);
+
+                    $success     = 1;
+                    $successText = $languageArray["error.addfunds.online.success"];
+                    $payment_url = $productUrl;
+                    unset($_SESSION["data"]);
+
+                } elseif (isset($responseData['data']['productUrl'])) {
+                    // Alternatif yanıt formatı
+                    $productUrl         = $responseData['data']['productUrl'];
+                    $created_product_id = $responseData['data']['id'] ?? '';
+
+                    $insert = $conn->prepare("INSERT INTO payments SET client_id=:c_id, payment_amount=:amount, payment_privatecode=:code, payment_method=:method, payment_mode=:mode, payment_create_date=:date, payment_ip=:ip, payment_extra=:extra, payment_delivery=1");
+                    $insert->execute([
+                        'c_id'   => $user['client_id'],
+                        'amount' => $amount,
+                        'code'   => $paymentCode,
+                        'method' => $method_id,
+                        'mode'   => 'Otomatik',
+                        'date'   => date('Y.m.d H:i:s'),
+                        'ip'     => GetIP(),
+                        'extra'  => $created_product_id,
+                    ]);
+
+                    $success     = 1;
+                    $successText = $languageArray["error.addfunds.online.success"];
+                    $payment_url = $productUrl;
+                    unset($_SESSION["data"]);
+
+                } else {
+                    $error   = 1;
+                    $err_msg = $responseData['message'] ?? ('Shopier API Bağlantı Hatası (HTTP ' . $httpCode . ')');
+                    $errorText = 'Shopier ürünü oluşturulamadı: ' . $err_msg;
+                }
+            }
         elseif ($method_id == 5) :
             $shoplemo = new \Shoplemo\Config();
             $shoplemo->setAPIKey($extra["apiKey"]);

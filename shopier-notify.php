@@ -338,8 +338,8 @@ function processV1(PDO $conn, array $pay, array $method, int $mid, string $order
     $balQ->execute(['id' => $cid]);
     $curBal = floatval($balQ->fetchColumn());
 
-    $uQ = $conn->prepare("UPDATE payments SET client_balance=:b, payment_status=3, payment_delivery=2, payment_extra=:e WHERE payment_id=:id AND payment_delivery=1");
-    $uQ->execute(['b' => $curBal, 'e' => 'shopier_order:' . $orderId, 'id' => $pay['payment_id']]);
+    $uQ = $conn->prepare("UPDATE payments SET client_balance=:b, payment_status=3, payment_delivery=2, payment_extra=:e, payment_update_date=:d WHERE payment_id=:id AND payment_delivery=1");
+    $uQ->execute(['b' => $curBal, 'e' => 'shopier_order:' . $orderId, 'd' => date('Y-m-d H:i:s'), 'id' => $pay['payment_id']]);
     if ($uQ->rowCount() === 0) { $conn->rollBack(); return 'already_processed'; }
 
     if (!empty($webhookId)) {
@@ -385,8 +385,8 @@ function processLegacy(PDO $conn, array $pay, array $user, array $method, int $m
     $delProd = null;
     if (!empty($pay['payment_extra']) && substr($pay['payment_extra'],0,14) !== 'shopier_order:') $delProd = $pay['payment_extra'];
 
-    $uQ = $conn->prepare("UPDATE payments SET client_balance=:b, payment_status=3, payment_delivery=2, payment_extra=:e WHERE payment_id=:id AND payment_delivery=1");
-    $uQ->execute(['b' => $curBal, 'e' => 'shopier_order:' . $orderId, 'id' => $pay['payment_id']]);
+    $uQ = $conn->prepare("UPDATE payments SET client_balance=:b, payment_status=3, payment_delivery=2, payment_extra=:e, payment_update_date=:d WHERE payment_id=:id AND payment_delivery=1");
+    $uQ->execute(['b' => $curBal, 'e' => 'shopier_order:' . $orderId, 'd' => date('Y-m-d H:i:s'), 'id' => $pay['payment_id']]);
     if ($uQ->rowCount() === 0) { $conn->rollBack(); return 'already_processed'; }
 
     $conn->prepare("UPDATE clients SET balance=:b WHERE client_id=:id")->execute(['b' => $curBal + $base, 'id' => $cid]);
