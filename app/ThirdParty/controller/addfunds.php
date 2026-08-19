@@ -331,9 +331,13 @@ elseif ($_POST && isset($_POST["payment_type"])) :
             endif;
         elseif ($method_id == 4) :
             // ─── Shopier REST API v1 — Dinamik Ürün Oluşturma ─────────────────
-            $rawApiKey    = $extra['apiKey'] ?? '';
-            $apiKeyParts  = explode('|||', $rawApiKey);
-            $shopier_token = $apiKeyParts[1] ?? null;
+            $rawApiKey = $extra['apiKey'] ?? '';
+            // apiKey alanı doğrudan Bearer Token; eski "key|||token" formatı için geriye dönük uyumluluk
+            if (strpos($rawApiKey, '|||') !== false) {
+                $shopier_token = explode('|||', $rawApiKey)[1] ?? null;
+            } else {
+                $shopier_token = $rawApiKey ?: null;
+            }
 
             if (!$shopier_token) {
                 $error = 1;
