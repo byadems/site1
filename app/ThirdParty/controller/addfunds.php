@@ -354,6 +354,10 @@ elseif ($_POST && isset($_POST["payment_type"])) :
                 $product_title = $site_name . ' - ' . $amount . ' TL Bakiye Yükleme (Sipariş: ' . $paymentCode . ')';
                 $product_desc  = '♻️ Bakiye Yenileme (Müşteri: ' . $user['username'] . ')';
 
+                // Ürün görseli URL'si — Shopier "media is required" zorunluluğu için
+                $site_url_base = rtrim($settings['site_url'] ?? ('https://' . ($_SERVER['HTTP_HOST'] ?? 'merkezbayim.com')), '/');
+                $product_image_url = $site_url_base . '/image/shopier-product.png';
+
                 $postData = [
                     'title'         => $product_title,
                     'priceData'     => ['price' => $final_price, 'currency' => 'TRY'],
@@ -362,6 +366,7 @@ elseif ($_POST && isset($_POST["payment_type"])) :
                     'inventory'     => ['tracking' => true, 'quantity' => 1],
                     'shippingPayer' => 'sellerPays',
                     'description'   => $product_desc,
+                    'media'         => [['url' => $product_image_url]],
                 ];
 
                 $ch = curl_init();
