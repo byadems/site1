@@ -1,0 +1,22 @@
+RewriteEngine On
+
+# Shopier webhook dosyasına doğrudan erişim — ModSecurity ve filtreler devre dışı
+<Files "shopier-notify.php">
+    # ModSecurity kurallarını bu dosya için devre dışı bırak
+    <IfModule mod_security.c>
+        SecRuleEngine Off
+    </IfModule>
+    <IfModule mod_security2.c>
+        SecRuleEngine Off
+    </IfModule>
+    # Erişimi açık bırak
+    Satisfy Any
+    Allow from all
+    Order allow,deny
+    Allow from all
+</Files>
+
+# Kalan tüm istekleri index.php'ye yönlendir (CodeIgniter routing)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]

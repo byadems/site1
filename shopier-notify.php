@@ -69,11 +69,18 @@ function shopierLog(string $msg) {
 shopierLog('=== YENİ İSTEK ===');
 shopierLog('IP: ' . ($_SERVER['REMOTE_ADDR'] ?? 'bilinmiyor'));
 
-$isOSB    = isset($_POST['res']) && isset($_POST['hash']);
-$rawBody  = file_get_contents('php://input');
-$isRESTv1 = !$isOSB && !empty($rawBody);
+// OSB format tespiti: eski (res+hash) ve modern (platform_order_id+random_nr)
+$isLegacyOSB = isset($_POST['res']) && isset($_POST['hash']);
+$isModernOSB = !$isLegacyOSB && isset($_POST['platform_order_id']) && isset($_POST['random_nr']);
+$isOSB       = $isLegacyOSB || $isModernOSB;
+$rawBody     = file_get_contents('php://input');
+// REST API v1 webhook: JSON body + Shopier-Signature HTTP header
+$_hdrAll = function_exists('getallheaders') ? getallheaders() : [];
+$_shopierSigH = '';
+foreach ($_hdrAll as $_hk => $_hv) { if (strtolower($_hk) === 'shopier-signature') { $_shopierSigH = $_hv; break; } }
+$isRESTv1 = !$isOSB && !empty($rawBody) && !empty($_shopierSigH);
 
-shopierLog('Format: ' . ($isOSB ? 'Eski OSB' : ($isRESTv1 ? 'REST API v1' : 'BİLİNMİYOR')));
+shopierLog('Format: ' . ($isModernOSB ? 'Modern OSB' : ($isLegacyOSB ? 'Eski OSB' : ($isRESTv1 ? 'REST API v1 Webhook' : 'BİLİNMİYOR'))));
 
 // ─── DB ──────────────────────────────────────────────────────────────────────
 try {
@@ -207,7 +214,116 @@ if ($isRESTv1) {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// YOL B: Eski OSB
+// YOL B: Modern OSB (platform_order_id + random_nr formatı)
+// ═══════════════════════════════════════════════════════════════════════════════
+if ($isModernOSB) {
+    shopierLog('Modern OSB formatı işleniyor.');
+
+    $osbOrderId    = $_POST['platform_order_id'] ?? '';
+    $osbStatus     = (int)($_POST['status']            ?? 0);
+    $osbRandomNr   = $_POST['random_nr']         ?? '';
+    $osbTotalValue = $_POST['total_order_value']  ?? '';
+    $osbCurrency   = $_POST['currency']           ?? '';
+    $osbSignature  = base64_decode($_POST['signature'] ?? '');
+    $buyerEmail    = trim($_POST['buyer_email']   ?? '');
+    $buyerPhone    = trim($_POST['buyer_phone']   ?? '');
+    $shopierPrice  = floatval(str_replace(',', '.', $osbTotalValue));
+
+    shopierLog("OSB | Order: $osbOrderId | Status: $osbStatus | Email: $buyerEmail | Tutar: $shopierPrice");
+
+    // İmza doğrulama: HMAC-SHA256(random_nr + order_id + total + currency, apiSecret)
+    $osbSecret = $extras['apiSecret'] ?? '';
+    if (!empty($osbSecret)) {
+        $sigData  = $osbRandomNr . $osbOrderId . $osbTotalValue . $osbCurrency;
+        $expected = hash_hmac('SHA256', $sigData, $osbSecret, true);
+        if (!hash_equals($expected, $osbSignature)) {
+            shopierLog('HATA: OSB imza doğrulaması başarısız.');
+            http_response_code(200); die('ok');
+        }
+        shopierLog('OSB imza doğrulaması başarılı.');
+    } else {
+        shopierLog('UYARI: apiSecret tanımlı değil — imza doğrulaması atlandı.');
+    }
+
+    if ($osbStatus != 1) {
+        shopierLog("OSB status=$osbStatus (ödeme başarısız). Atlanıyor.");
+        http_response_code(200); die('ok');
+    }
+
+    $processed = false;
+
+    // Yöntem 1: Shopier API ile product ID'yi al → payment_extra ile eşleştir
+    if ($shopierToken && $osbOrderId) {
+        $ch = curl_init("https://api.shopier.com/v1/orders/$osbOrderId");
+        curl_setopt_array($ch, [
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_HTTPHEADER     => ["Authorization: Bearer $shopierToken", "Accept: application/json"],
+            CURLOPT_TIMEOUT        => 10,
+            CURLOPT_SSL_VERIFYPEER => true,
+        ]);
+        $apiResp = curl_exec($ch);
+        $apiCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+        shopierLog("Shopier API sipariş sorgusu: HTTP $apiCode");
+        if ($apiCode === 200 && $apiResp) {
+            $orderData = json_decode($apiResp, true);
+            $productId = $orderData['lineItems'][0]['productId'] ?? null;
+            shopierLog("API'den product ID: $productId");
+            if ($productId) {
+                $pQ = $conn->prepare("SELECT p.*, c.balance AS c_balance FROM payments p INNER JOIN clients c ON c.client_id=p.client_id WHERE p.payment_extra=:pid AND p.payment_method=:m AND p.payment_delivery=1 LIMIT 1");
+                $pQ->execute(['pid' => $productId, 'm' => $methodId]);
+                $pay = $pQ->fetch(PDO::FETCH_ASSOC);
+                if ($pay) {
+                    $r = processV1($conn, $pay, $method, $methodId, $osbOrderId, '', $productId, $settings);
+                    $processed = ($r && $r !== 'already_processed');
+                    shopierLog($processed ? "API+Product ID başarılı: $r TL" : 'Product ID işlenemedi.');
+                }
+            }
+        }
+    }
+
+    // Yöntem 2: Email fallback
+    if (!$processed && $buyerEmail) {
+        $uQ = $conn->prepare("SELECT * FROM clients WHERE email=:e LIMIT 1");
+        $uQ->execute(['e' => $buyerEmail]);
+        $user = $uQ->fetch(PDO::FETCH_ASSOC);
+        if ($user) {
+            $pay = findMatch($conn, $user['client_id'], $methodId, $shopierPrice, $extras);
+            if ($pay) {
+                $r = processLegacy($conn, $pay, $user, $method, $methodId, $osbOrderId, $settings);
+                $processed = ($r && $r !== 'already_processed');
+                shopierLog($processed ? "Email fallback başarılı: $r TL" : 'Email fallback başarısız.');
+            }
+        }
+    }
+
+    // Yöntem 3: Telefon fallback
+    if (!$processed && $buyerPhone) {
+        $clean = preg_replace('/[^0-9]/', '', $buyerPhone);
+        if (substr($clean,0,2)==='90') $clean=substr($clean,2);
+        elseif (substr($clean,0,1)==='0') $clean=substr($clean,1);
+        $phones = [$clean, '0'.$clean, '90'.$clean, '+90'.$clean, $buyerPhone];
+        $ph = implode(',', array_fill(0, count($phones), '?'));
+        $uQ = $conn->prepare("SELECT * FROM clients WHERE telephone IN ($ph) LIMIT 1");
+        $uQ->execute($phones);
+        $user = $uQ->fetch(PDO::FETCH_ASSOC);
+        if ($user) {
+            $pay = findMatch($conn, $user['client_id'], $methodId, $shopierPrice, $extras);
+            if ($pay) {
+                $r = processLegacy($conn, $pay, $user, $method, $methodId, $osbOrderId, $settings);
+                $processed = ($r && $r !== 'already_processed');
+                shopierLog($processed ? "Telefon fallback başarılı: $r TL" : 'Telefon fallback başarısız.');
+            }
+        }
+    }
+
+    shopierLog($processed ? 'SONUÇ: Modern OSB başarılı.' : 'SONUÇ: Modern OSB eşleştirilemedi.');
+    shopierLog('===================');
+    http_response_code(200); echo 'ok'; die();
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// YOL C: Eski OSB
 // ═══════════════════════════════════════════════════════════════════════════════
 if ($isOSB) {
     shopierLog('Eski OSB formatı.');
