@@ -1,0 +1,5 @@
+<FilesMatch "\.(eot|ttf|otf|woff)$">
+    Header set Access-Control-Allow-Origin "*"
+    Header add Access-Control-Allow-Origin "https://cdn.elinsoft.com"
+    Header add Access-Control-Allow-Origin "https://sosyaladresim.com"
+</FilesMatch>

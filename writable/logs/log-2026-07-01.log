@@ -1,0 +1,24 @@
+CRITICAL - 2026-07-01 03:53:05 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-07-01 04:00:08 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-07-01 09:53:05 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-07-01 10:00:16 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,54 @@
+CRITICAL - 2026-05-06 00:53:04 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-05-06 01:00:08 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-05-06 09:53:05 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-05-06 10:00:12 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-05-06 13:00:06 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-05-06 15:53:04 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-05-06 16:00:06 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-05-06 21:53:05 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-05-06 22:00:07 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}

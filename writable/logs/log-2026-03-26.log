@@ -1,0 +1,56 @@
+CRITICAL - 2026-03-26 00:00:07 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-03-26 01:00:07 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-03-26 14:53:04 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-03-26 15:00:05 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-03-26 15:53:04 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-03-26 16:00:07 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-03-26 19:53:03 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-03-26 20:00:04 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-03-26 20:39:26 --> include(/home/merk2228/public_html/app/ThirdParty/controller/index.php.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Home.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 475, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Home.php(475): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Home->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Home))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}

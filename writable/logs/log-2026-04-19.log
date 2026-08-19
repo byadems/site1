@@ -1,0 +1,56 @@
+ERROR - 2026-04-19 06:15:48 --> MySQL server has gone away
+CRITICAL - 2026-04-19 06:15:48 --> Call to a member function getResultArray() on bool
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(40): SMMApi->action(Array, 'https://smmturk...')
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->api_detail()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-04-19 06:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(951): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 951, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2026-04-19 07:15:47 --> MySQL server has gone away
+CRITICAL - 2026-04-19 07:15:47 --> Call to a member function getResultArray() on bool
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(40): SMMApi->action(Array, 'https://smmturk...')
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->api_detail()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-04-19 07:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(951): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 951, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-04-19 08:00:03 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1122, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->sync()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-04-19 08:00:03 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(951): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 951, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-04-19 09:53:04 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2026-04-19 10:00:06 --> Call to a member function protect() on null
+#0 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#1 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,8 @@
+CRITICAL - 2026-03-28 00:05:42 --> include(/home/merk2228/public_html/app/ThirdParty/controller/index.php.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Home.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 475, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Home.php(475): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Home->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Home))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}

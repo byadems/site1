@@ -1,0 +1,54 @@
+/*------------------------------------------------------*/
+
+
+.glycon-update-action {
+    padding: 8px 10px;
+    color: #fff;
+    background: #f93e66;
+    border-radius: 5px;
+    width: 100%;
+    min-width: 150px;
+    text-align: center;
+}
+
+.glycon-updates-page .card {
+	/*background-color: #34333e;*/
+    color: #333
+}
+
+.glycon-updates-page .card h4 {
+	font-size: 13px;
+	font-weight: 400;
+	padding-bottom: 5px
+}
+
+.glycon-update-action.p-down {
+	background: #3ad89e;}
+
+.glycon-update-action.p-downd {
+    background: #10a76f;
+}
+
+.glycon-update-action.p-up {
+	background: #ff7543
+}
+
+.glycon-update-action.p-delete {
+	background: #f93e66
+}
+
+.glycon-update-action.p-min {
+    background: #4a5cf6
+}
+
+.glycon-update-action.p-min-y {
+    background: #8390ff
+}
+
+.glycon-update-action.p-max {
+    background: #ce7bf5
+}
+
+.glycon-update-action.p-max-y {
+    background: #b933f7
+}

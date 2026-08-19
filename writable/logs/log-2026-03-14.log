@@ -1,0 +1,1381 @@
+CRITICAL - 2026-03-14 02:35:09 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 02:35:09 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 02:53:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 03:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 03:53:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 04:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 04:21:48 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 04:21:48 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 04:41:29 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 04:41:29 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 04:41:33 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 04:41:33 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 04:48:24 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 04:48:24 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 04:53:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 05:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 05:13:35 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 05:13:38 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 05:53:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 06:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 06:31:17 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 06:31:17 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 06:31:55 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 06:31:55 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 06:32:02 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 06:32:02 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 06:38:59 --> A non-numeric value encountered
+#0 /home/merk2228/public_html/app/ThirdParty/controller/neworder.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/merk2228/...', 198, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Home.php(475): include('/home/merk2228/...')
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Home->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Home))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 06:39:19 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 06:39:19 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 06:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 07:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 07:41:27 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:41:27 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:41:57 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:41:57 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:42:05 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:42:05 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 07:53:44 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:53:44 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:53:51 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:53:51 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:53:52 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:53:52 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:53:53 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 07:53:53 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 08:16:08 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:08 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:15 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:15 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:23 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:23 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:26 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:26 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:28 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:28 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:29 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:29 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:31 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:16:31 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 08:53:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 09:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 09:17:51 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:17:51 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:17:57 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:17:57 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:18:07 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:18:07 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:19:04 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:19:04 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:19:45 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:19:45 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:05 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:05 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:12 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:12 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:16 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:16 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:20 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:20 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:21 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:21 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:21 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:21 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:22 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:22 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:24 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:24 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:58 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:20:58 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:29:45 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:29:45 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:29:47 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:29:47 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:50:03 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:50:03 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:50:05 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:50:05 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:50:07 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:50:07 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:50:18 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:50:18 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:50:21 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:50:21 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:53:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 09:54:49 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:54:49 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:58:01 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:58:01 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:59:11 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:59:11 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:59:28 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 09:59:28 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 10:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 10:44:31 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 10:44:31 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 10:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 11:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 11:53:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 11:59:57 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 11:59:57 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 12:00:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 12:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 13:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 13:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 14:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 14:21:34 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:21:34 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:36:45 --> include(/home/merk2228/public_html/app/ThirdParty/controller/index.php.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Home.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 475, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Home.php(475): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Home->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Home))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:41:18 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:41:18 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:41:21 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:41:21 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:41:22 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:41:22 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:41:28 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:41:28 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:41:30 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:41:30 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 14:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 15:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 15:14:14 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 15:14:14 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 15:14:16 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 15:14:16 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 15:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 16:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 16:53:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 17:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 17:09:59 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 17:09:59 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 17:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 18:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 18:36:19 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 18:36:19 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 18:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 19:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 19:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 20:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 20:23:21 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 20:23:21 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 20:23:26 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 20:23:26 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 20:23:32 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 20:23:32 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 20:24:16 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 20:24:16 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 20:25:25 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 20:25:25 --> include(/home/merk2228/public_html/app/ThirdParty/dil/.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 58, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Ajax_Data.php(58): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Ajax_Data->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Ajax_Data))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 20:53:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 21:00:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 21:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 22:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 22:47:45 --> include(/home/merk2228/public_html/app/ThirdParty/controller/index.php.php): failed to open stream: No such file or directory
+#0 /home/merk2228/public_html/app/Controllers/main/Home.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/m...', '/home/merk2228/...', 475, Array)
+#1 /home/merk2228/public_html/app/Controllers/main/Home.php(475): include()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\main\Home->index()
+#3 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\main\Home))
+#4 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2026-03-14 22:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 23:00:02 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2026-03-14 23:53:01 --> Invalid argument supplied for foreach()
+#0 /home/merk2228/public_html/app/Controllers/Cron.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/merk2228/...', 1049, Array)
+#1 /home/merk2228/public_html/system/CodeIgniter.php(802): App\Controllers\Cron->providers()
+#2 /home/merk2228/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 /home/merk2228/public_html/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/merk2228/public_html/index.php(0): CodeIgniter\CodeIgniter->run()
+#5 {main}

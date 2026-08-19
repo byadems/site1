@@ -1,0 +1,44 @@
+{% include 'main/default/header.twig' %}
+
+{% if user['auth'] %}
+
+{% else %}
+<style>.app-content {padding-left:0}</style>
+
+    <div class="home-head">
+        <div class="home-head-bg" style="height:125px"></div>
+    </div>
+{% endif %}
+<div class="app-content">
+   <!-- page-content -->
+   <div class="container-fluid">
+      <div class="row mt-4">
+          {% for post in blogList %}
+         <div class="col-lg-4">
+            <section class="blog-side">
+               <div class="row">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="d-card dc-dblue mb-3">
+                              <div class="d-card-body" id="dc-body">
+                                 <h4 style="text-align:center;">{{ post['blog_title'] }}</h4>
+                                 {% if post['blog_image'] %}
+                                 <p><img src="{{ post['blog_image'] }}" alt="{{ post['blog_title'] }}" style="width:100%;border-radius:1rem;height: 200px;object-fit: cover;" class="img-fluid" style="max-width:350px!important">
+                                 </p>
+                                 {% endif %}
+                                 <a href="{{ site['url'] }}/blog/{{ post['url'] }}" style="width:100%;" class="btn btn-primary">{{ lang['blog.read'] }}</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+         </section>
+      </div>
+      {% endfor %}
+   </div>
+</div>
+
+{% include 'main/default/footer.twig' %}
