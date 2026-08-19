@@ -366,7 +366,13 @@ elseif ($_POST && isset($_POST["payment_type"])) :
                     'inventory'     => ['tracking' => true, 'quantity' => 1],
                     'shippingPayer' => 'sellerPays',
                     'description'   => $product_desc,
-                    'media'         => [['url' => $product_image_url]],
+                    'media'         => [
+                        [
+                            'type'      => 'image',
+                            'placement' => 1,
+                            'url'       => $product_image_url,
+                        ]
+                    ],
                 ];
 
                 $ch = curl_init();
