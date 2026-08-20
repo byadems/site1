@@ -105,14 +105,11 @@ $settingsQ->execute();
 $settings = $settingsQ->fetch(PDO::FETCH_ASSOC);
 
 $rawApiKey    = $extras['apiKey'] ?? '';
-// Geriye dönük uyumluluk: eski "osb_key|||bearer_token" formatı için
-if (strpos($rawApiKey, '|||') !== false) {
-    $shopierToken = explode('|||', $rawApiKey)[1] ?? null;
-} else {
-    $shopierToken = $rawApiKey ?: null; // apiKey alanı doğrudan Bearer Token
-}
-// apiSecret alanı artık Webhook Token olarak kullanılıyor
-$webhookToken = $extras['webhookToken'] ?? $extras['apiSecret'] ?? '';
+$apiKeyParts  = explode('|||', $rawApiKey);
+$apiKey       = $apiKeyParts[0] ?? $rawApiKey; // Eski OSB apiKey (veya ||| yoksa kendisi)
+$shopierToken = $apiKeyParts[1] ?? $rawApiKey; // REST API Bearer Token
+$apiSecret    = $extras['apiSecret'] ?? '';    // Eski OSB apiSecret
+$webhookToken = $extras['webhookToken'] ?? $extras['apiSecret'] ?? ''; // REST API Webhook Token
 
 // ═══════════════════════════════════════════════════════════════════════════════
 // YOL A: REST API v1
