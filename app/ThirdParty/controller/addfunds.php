@@ -36,6 +36,7 @@ $paymentsList = $paymentsList->fetchAll(PDO::FETCH_ASSOC);
 foreach ($paymentsList as $index => $payment) {
     $extra = json_decode($payment["method_extras"], true);
     $methodList[$index]["method_name"] = $extra["name"];
+    $methodList[$index]["content"] = isset($extra["content"]) ? $extra["content"] : '';
     $methodList[$index]["id"] = $payment["id"];
 }
 
