@@ -140,7 +140,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var paymentContents = {
         {% for payment in paymentsList %}
-            "{{ payment['id'] }}": `{{ payment['content']|raw }}`,
+            "{{ payment['id'] }}": `{{ payment['content']|raw }}`.replace(/\\n/g, "<br>"),
         {% endfor %}
     };
 
