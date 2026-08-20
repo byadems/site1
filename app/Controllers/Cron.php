@@ -1486,4 +1486,69 @@ class Cron extends Controller
             }
         }
     }
+
+    public function shopier_cleanup()
+    {
+        global $conn;
+        
+        try {
+            // Shopier API bilgilerini al
+            $sm = $conn->prepare("SELECT method_id, method_extras FROM payment_methods WHERE method_get = 'shopier'");
+            $sm->execute();
+            $shopier = $sm->fetch(\PDO::FETCH_ASSOC);
+            
+            if (!$shopier) return;
+            
+            $extras = json_decode($shopier['method_extras'], true);
+            // Bearer Token'ı ayır (Eski OSB_Kullanici|||PAT_Token formatı veya doğrudan PAT Token olabilir)
+            $token = (explode('|||', $extras['apiKey'] ?? ''))[1] ?? ($extras['apiKey'] ?? null);
+            if (!$token) return;
+            
+            // payment_status = 1 (Bekleyen)
+            // 5 Saat kuralı: (Şu anki zamandan 5 saat önce oluşturulmuş)
+            // Sadece product ID barındıran işlemler (shopier_order: ile başlamayanlar)
+            $stmt = $conn->prepare("
+                SELECT payment_id, payment_extra 
+                FROM payments 
+                WHERE payment_method = :mid 
+                  AND payment_status = 1 
+                  AND payment_extra != '' 
+                  AND payment_extra NOT LIKE 'shopier_order:%'
+                  AND payment_create_date < DATE_SUB(NOW(), INTERVAL 5 HOUR)
+            ");
+            $stmt->execute(['mid' => $shopier['method_id']]);
+            $payments = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+            
+            $processedCount = 0;
+            
+            foreach ($payments as $pay) {
+                $pid = $pay['payment_extra'];
+                
+                // Shopier REST API v1 DELETE isteği
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, 'https://api.shopier.com/v1/products/' . $pid);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'DELETE');
+                curl_setopt($ch, CURLOPT_TIMEOUT, 8);
+                curl_setopt($ch, CURLOPT_HTTPHEADER, ['Authorization: Bearer '.$token, 'Accept: application/json']);
+                curl_exec($ch);
+                $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                curl_close($ch);
+                
+                // 204 (No Content) veya 200 başarılı, 404 (zaten silinmiş/yok)
+                if ($code == 204 || $code == 200 || $code == 404) {
+                    // İşlem tekrarlanmasın diye payment_extra alanını (ürün id'sini) temizliyoruz
+                    // Kullanıcı talebine istinaden siparişi iptal etmiyor (sadece shopier'dan siliyoruz)
+                    $uQ = $conn->prepare("UPDATE payments SET payment_extra = '' WHERE payment_id = :pid");
+                    $uQ->execute(['pid' => $pay['payment_id']]);
+                    $processedCount++;
+                }
+            }
+            
+            echo "Shopier cleanup complete. Deleted products: " . $processedCount;
+            
+        } catch (\Exception $e) {
+            echo "Shopier cleanup error: " . $e->getMessage();
+        }
+    }
 }
