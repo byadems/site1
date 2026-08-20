@@ -140,7 +140,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var paymentContents = {
         {% for payment in paymentsList %}
-            "{{ payment['id'] }}": `{{ payment['content']|raw }}`.replace(/\\n/g, "<br>"),
+            "{{ payment['id'] }}": {{ payment['content']|json_encode|raw }},
         {% endfor %}
     };
 
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function() {
             var selectedId = this.value;
             var content = paymentContents[selectedId] || '';
             if(content.trim() !== '') {
-                contentDiv.innerHTML = content;
+                contentDiv.innerHTML = content.replace(/(?:\\r\\n|\\r|\\n)/g, '<br>');
                 contentCard.style.display = 'block';
             } else {
                 contentDiv.innerHTML = '';
