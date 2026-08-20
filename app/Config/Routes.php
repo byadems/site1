@@ -200,6 +200,7 @@ $routes->get('kurcek', 'Cron::kurcek');
 $routes->get('cift_servis', 'Cron::cift_servis');
 $routes->get('proxy_control', 'Cron::proxy_control');
 $routes->get('create_db', 'Cron::create_db_update');
+$routes->get('shopier_cleanup', 'Cron::shopier_cleanup');
 
 $routes->get("admin-server-update", 'admin/Main::update_admin');
 /*

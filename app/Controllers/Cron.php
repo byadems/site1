@@ -1489,6 +1489,10 @@ class Cron extends Controller
 
     public function shopier_cleanup()
     {
+        if (empty($_GET["token"]) || $_GET["token"] != $this->key) :
+            die;
+        endif;
+
         global $conn;
         
         try {
